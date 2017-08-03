@@ -25,17 +25,27 @@ class Index
         $this->view = new View();
     }
 
+    /**
+     * 默认方法
+     * @return object View层对象
+     */
     public function show()
     {
-        dump($_SESSION);
         return $this->view->make('index')->with('version', 'Version:1.0');
     }
 
+    /**
+     * 登陆
+     * @return object
+     */
     public function login()
     {
         return $this->view->make('login');
     }
 
+    /**
+     * 输出验证码
+     */
     public function code()
     {
         header('Content-type:image/jpeg');
