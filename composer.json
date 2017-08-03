@@ -1,0 +1,14 @@
+{
+    "name": "287970798/composer",
+    "description": "a composer test",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "rxw",
+            "email": "287970798@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
